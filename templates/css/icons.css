@@ -1,0 +1,39 @@
+.icon {
+    font-size: 1.5em; /* Ajuste cette valeur selon tes besoins */
+}
+
+.fab, .ion-icon {
+    font-size: 1.5em; /* Cette classe est utilisée pour les icônes Font Awesome ou Ionicons */
+}
+
+ul {
+    list-style-type: none; /* Supprime les puces */
+    padding-left: 0; /* Supprime le retrait à gauche */
+}
+
+.info-icon {
+    margin-right: 10px; /* Ajoute un peu d'espace entre l'icône et le texte */
+    vertical-align: middle; /* Aligne verticalement les icônes avec le texte */
+}
+
+.media {
+    display: flex;  /* Utilisation de Flexbox pour aligner les éléments */
+    align-items: center; /* Aligne les items au centre verticalement */
+    margin-bottom: 10px; /* Ajoute un espace entre chaque ligne */
+}
+
+.info-icon {
+    margin-right: 12px; /* Espace entre l'icône et le texte */
+    font-size: 3em; /* Ajuste la taille des icônes si nécessaire */
+    color: #333; /* Couleur des icônes */
+    top: -2px; /* Remonte légèrement l'icône */
+    position: relative; /* Position relative pour ajuster la position verticale */
+
+
+}
+
+.info-type {
+    line-height: 1.2; /* Ajuste la hauteur de ligne pour mieux aligner verticalement */
+    margin-bottom: 0; /* Enlève les marges par défaut */
+}
+
